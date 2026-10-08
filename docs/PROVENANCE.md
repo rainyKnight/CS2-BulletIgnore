@@ -1,6 +1,8 @@
 # 技术来源
 
-前期原生实现来自 BulletIgnoreTestMM 压缩包，其元信息标注作者 seeseecs2、许可 MIT。项目随后完成 Linux/ModSharp 移植与 ZM 模式集成，再整理为独立插件。
+前期原生实现来自 BulletIgnoreTestMM 压缩包，其元信息标注作者 seeseecs2（GitHub [@KB0001KB](https://github.com/KB0001KB)，本 PR 即由原始作者提交）、许可 MIT。项目随后完成 Linux/ModSharp 移植与 ZM 模式集成，再整理为独立插件。
+
+原始原型对拦截点选择、标志位语义冲突、命中链压缩与区段修正等设计依据的完整整理见 [THEORY.md](THEORY.md)。
 
 原有 MIT 声明位于 `LICENSES/MIT-BulletIgnoreTestMM.txt`，当前独立项目采用 AGPL-3.0-only。来源文件和前期压缩包的 SHA256 见 `extraction-provenance.json`。
 
