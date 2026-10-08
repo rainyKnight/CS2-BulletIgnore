@@ -16,6 +16,8 @@ A **ModSharp** plugin for CS2 that prevents human players standing in the line o
 
 The plugin intercepts the native `FireBullet` path after the hit chain is built and before penetration and damage are calculated. It removes the player hits to be ignored and repairs the remaining segments, allowing the engine to continue processing targets behind those players without the additional human-body penetration loss.
 
+The design rationale behind the hit-chain compaction and segment repair is documented in [docs/THEORY.md](docs/THEORY.md) (Simplified Chinese).
+
 ## Scope
 
 This version targets modes where **humans are always CT and zombies are always T**.
