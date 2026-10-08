@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BulletIgnore</AssemblyName>
+    <RootNamespace>BulletIgnore</RootNamespace>
+    <Description>CT human bullet pass-through for dedicated zombie servers, using ModSharp.</Description>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup><InternalsVisibleTo Include="BulletIgnore.Tests" /></ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ModSharp.Sharp.Shared" PrivateAssets="all" ExcludeAssets="runtime" />
+  </ItemGroup>
+</Project>

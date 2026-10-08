@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <Version>0.1.0</Version>
+    <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>
